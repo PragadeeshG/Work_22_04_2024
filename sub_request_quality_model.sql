@@ -1,0 +1,15 @@
+create table if not exists sub_request_quality_model(
+row_id integer not null,
+status varchar(255) null,
+dataset_name varchar(255) null,
+ref_id varchar(255) null,
+quality_grading varchar(255) null,
+remarks varchar(255) null,
+distribution_mode varchar(255) null,
+extraction_criteria_code varchar(255) null,
+frequency varchar(255) null,
+usage1 varchar(255) null,
+creation_date varchar(255) null,
+entity_state varchar(255) null,
+modified_date varchar(255) null,
+constraint sub_request_quality_model_pk primary key(row_id));
